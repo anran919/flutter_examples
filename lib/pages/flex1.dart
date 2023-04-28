@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Flexsample1 extends StatelessWidget {
-  const Flexsample1({Key? key}) : super(key: key);
+class FlexSample1 extends StatelessWidget {
+  const FlexSample1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flexsample 搜索'),
+        title: const Text('FlexSample1 搜索'),
       ),
       body: Container(
         margin: const EdgeInsets.fromLTRB(0, 10, 0, 10),

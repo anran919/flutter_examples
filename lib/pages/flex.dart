@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Flexsample extends StatelessWidget {
-  const Flexsample({Key? key}) : super(key: key);
+class FlexSample extends StatelessWidget {
+  const FlexSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

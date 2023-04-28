@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FloatingActionButtonsample extends StatefulWidget {
-  const FloatingActionButtonsample({Key? key}) : super(key: key);
+class FloatingActionButtonSample extends StatefulWidget {
+  const FloatingActionButtonSample({Key? key}) : super(key: key);
 
   @override
-  State<FloatingActionButtonsample> createState() => _FloatingActionButtonsampleState();
+  State<FloatingActionButtonSample> createState() => _FloatingActionButtonSampleState();
 }
 
-class _FloatingActionButtonsampleState extends State<FloatingActionButtonsample> {
+class _FloatingActionButtonSampleState extends State<FloatingActionButtonSample> {
   int _index = 0;
   final List<Widget> _pages = const [
     HomePage(),

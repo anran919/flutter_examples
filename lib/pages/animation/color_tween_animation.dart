@@ -15,8 +15,14 @@ class _ColorTweenAnimationState extends State<ColorTweenAnimation>  with SingleT
   void initState() {
     super.initState();
     _controller = AnimationController(vsync: this,duration: const Duration(seconds: 2));
-    _animation = ColorTween(begin: Colors.blue,end: Colors.pink).animate(_controller);
-    _controller.repeat(reverse: true);
+    _animation = ColorTween(begin: Colors.blue,end: Colors.pink).animate(_controller)..addStatusListener((status) {
+      if (status == AnimationStatus.completed) {
+        _controller.repeat();
+      } else if (status == AnimationStatus.dismissed) {
+        _controller.forward();
+      }
+    });
+    _controller.forward();
   }
   @override
   void dispose() {

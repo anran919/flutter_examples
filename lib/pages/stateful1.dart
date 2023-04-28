@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Statefulsample1 extends StatefulWidget {
-  const Statefulsample1({Key? key}) : super(key: key);
+class StatefulSample1 extends StatefulWidget {
+  const StatefulSample1({Key? key}) : super(key: key);
 
   @override
-  State<Statefulsample1> createState() => _StatefulsampleState();
+  State<StatefulSample1> createState() => _StatefulSampleState();
 }
 
-class _StatefulsampleState extends State<Statefulsample1> {
+class _StatefulSampleState extends State<StatefulSample1> {
   final List<Widget> _list = [
     Column(children: const [
       ListTile(

@@ -16,13 +16,20 @@ class _TweenAnimationState extends State<TweenAnimation>
   void initState() {
     super.initState();
     _controller =
-        AnimationController(duration: const Duration(seconds: 1), vsync: this);
+        AnimationController(duration: const Duration(seconds: 2), vsync: this);
     _animation = Tween<double>(begin: 0, end: 200).animate(_controller)
       ..addListener(() {
         setState(() {
 
         });
-      });
+      })
+      ..addStatusListener((status) {
+      if(status== AnimationStatus.completed){
+        _controller.repeat();
+      }else if(status == AnimationStatus.dismissed){
+        _controller.forward();
+      }
+    });
     _controller.forward();
   }
 

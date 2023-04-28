@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Buttonsample1 extends StatelessWidget {
-  const Buttonsample1({Key? key}) : super(key: key);
+class ButtonSample1 extends StatelessWidget {
+  const ButtonSample1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

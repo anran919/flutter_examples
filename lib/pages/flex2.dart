@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example/r.dart';
 
-class Flexsample2 extends StatelessWidget {
-  const Flexsample2({Key? key}) : super(key: key);
+class FlexSample2 extends StatelessWidget {
+  const FlexSample2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.greenAccent,
-        title: const Text('Flexsample'),
+        title: const Text('FlexSample2'),
       ),
       body: ListView(
         children: const [

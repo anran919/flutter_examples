@@ -37,7 +37,9 @@ import 'package:flutter_example/pages/page_view/index.dart';
 import 'package:flutter_example/pages/flutter_key/index.dart';
 import 'package:flutter_example/pages/cupertino/index.dart';
 import 'package:flutter_example/pages/animated_list.dart';
+import 'package:flutter_example/pages/animated_list1.dart';
 import 'package:flutter_example/pages/animation/index.dart';
+import 'package:flutter_example/pages/text_field.dart';
 
 
 class HomePages extends StatefulWidget {
@@ -73,33 +75,35 @@ class _HomePagesState extends State<HomePages> {
             ListItem(title: "GridView3", page: const GridView3()),
             ListItem(title: "RowView", page: const RowView()),
             ListItem(title: "ColumnView", page: const ColumnView()),
-            ListItem(title: "Flexsample", page: const Flexsample()),
-            ListItem(title: "Flexsample1", page: const Flexsample1()),
-            ListItem(title: "Flexsample2", page: const Flexsample2()),
+            ListItem(title: "FlexSample", page: const FlexSample()),
+            ListItem(title: "FlexSample1", page: const FlexSample1()),
+            ListItem(title: "FlexSample2", page: const FlexSample2()),
             ListItem(title: "StackView", page: const StackView()),
             ListItem(title: "StackView1", page: const StackView1()),
             ListItem(title: "StackView2", page: const StackView2()),
             ListItem(title: "AspectRatioView", page: const AspectRatioView()),
             ListItem(title: "MyCardView", page: const MyCardView()),
             ListItem(title: "MyCardView1", page: const MyCardView1()),
-            ListItem(title: "Buttonsample", page: const Buttonsample()),
-            ListItem(title: "Buttonsample1", page: const Buttonsample1()),
+            ListItem(title: "ButtonSample", page: const ButtonSample()),
+            ListItem(title: "ButtonSample1", page: const ButtonSample1()),
             ListItem(title: "WrapView", page: const WrapView()),
             ListItem(title: "WrapView1", page: const WrapView1()),
-            ListItem(title: "Statefulsample", page: const Statefulsample()),
-            ListItem(title: "Statefulsample1", page: const Statefulsample1()),
+            ListItem(title: "StatefulSample", page: const StatefulSample()),
+            ListItem(title: "StatefulSample1", page: const StatefulSample1()),
             ListItem(title: "BottomNavigateView", page: const BottomNavigateView()),
-            ListItem(title: "FloatingActionButtonsample", page: const FloatingActionButtonsample()),
+            ListItem(title: "FloatingActionButtonSample", page: const FloatingActionButtonSample()),
             ListItem(title: "DrawerView", page: const DrawerView()),
             ListItem(title: "UserAccountDraw", page: const UserAccountDraw()),
             ListItem(title: "AppbarSample", page: const AppbarSample()),
             ListItem(title: "AppbarSample1", page: const AppbarSample1()),
             ListItem(title: "RouteSample", page: const RouteSample()),
             ListItem(title: "PageViews", page: const PageViewIndexPages()),
+            ListItem(title: "TextPage", page: const TextPage()),
             ListItem(title: "Flutter Key ", page: const FlutterKeyDemo()),
             ListItem(title: "CupertinoPage ", page: const CupertinoPage()),
             ListItem(title: "AnimatedList ", page: const AnimatedListPage()),
-            ListItem(title: "Animationsample ", page: const AnimationSample()),
+            ListItem(title: "AnimatedList1 ", page: const AnimatedListSample()),
+            ListItem(title: "AnimationSample ", page: const AnimationSample()),
           ],
         ),
       ),
