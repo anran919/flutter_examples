@@ -9,7 +9,9 @@ import 'package:flutter_example/pages/news.dart';
 import 'package:flutter_example/pages/app_bar1.dart';
 import 'package:flutter_example/pages/count.dart';
 import 'package:flutter_example/pages/home.dart';
+import 'package:flutter_example/pages/getx_sample/test.dart';
 const String initialRoute = '/';
+
 //命名路由传值第一步
 Map<String, WidgetBuilder> routes = {
   "/": (context) => const HomePages(),
@@ -22,6 +24,7 @@ Map<String, WidgetBuilder> routes = {
   "/register_step1": (context) => const RegisterStep1Page(),
   "/register_step2": (context) => const RegisterStep2Page(),
   "/dialog": (context) => const DialogPage(),
+  "/get_test_page": (context) => const GetXTestPage(),
 };
 
 

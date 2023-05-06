@@ -24,7 +24,7 @@ class RouteSample extends StatelessWidget {
                     return const AppbarSample1();
                   }));
                 },
-                child: const Text("跳转AppBarsample")),
+                child: const Text("跳转AppBarSample")),
           ),
           const Divider(),
           ListTile(

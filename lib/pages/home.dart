@@ -40,6 +40,7 @@ import 'package:flutter_example/pages/animated_list.dart';
 import 'package:flutter_example/pages/animated_list1.dart';
 import 'package:flutter_example/pages/animation/index.dart';
 import 'package:flutter_example/pages/text_field.dart';
+import 'package:flutter_example/pages/getx_sample/index.dart';
 
 
 class HomePages extends StatefulWidget {
@@ -104,6 +105,7 @@ class _HomePagesState extends State<HomePages> {
             ListItem(title: "AnimatedList ", page: const AnimatedListPage()),
             ListItem(title: "AnimatedList1 ", page: const AnimatedListSample()),
             ListItem(title: "AnimationSample ", page: const AnimationSample()),
+            ListItem(title: "GetX ", page: const GetXSamplePage()),
           ],
         ),
       ),
